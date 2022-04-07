@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "email": "sofi@gmail.com",
+      "password": "$2b$10$rYVFLAJaG58A5W.vICznmOOnXGGyfsZAo4s.fRSVUaXo9o.30Ba4u",
+      "isAdmin": false,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "email": "sofi@digitalhouse.com",
+      "password": "$2b$10$bGEedCHDPMNvPYM/3ZsbK.OgBky1RKR/4X/MqbrHCqkGHkjZYBLRa",
+      "isAdmin": true,
+      "isActive": true
+    }
+  ]

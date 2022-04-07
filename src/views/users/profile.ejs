@@ -1,0 +1,17 @@
+<%- include ("../includes/head.ejs")%>
+<body>
+    <%- include ("../includes/nav.ejs")%>
+    <h1>Profile</h1>
+    <body>
+        <h1>Profile</h1>
+        <form action="/users/logout" method="post">
+            <button type="submit">Logout</button>
+        </form>
+    <% if (locals.errors && errors.email) { %>
+    <p><%= errors.email.msg %> </p>
+    <% } %>
+    <% if (locals.errors && errors.password) { %>
+    <p><%= errors.password.msg %> </p>
+    <% } %>
+</body>
+</html>
